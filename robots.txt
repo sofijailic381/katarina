@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dr-katarina-antiaging.rs/sitemap.xml

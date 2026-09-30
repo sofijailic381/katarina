@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Dr Katarina Čorlija Karadžić | Stomatologija i estetska medicina Beograd</title>
+<meta name="description" content="Viva Dental &amp; Aesthetic Medicine - ordinacija dr Katarine Čorlije Karadžić, doktorke stomatologije i sertifikovane doktorke estetske medicine. Stomatološke usluge i estetski tretmani u Beogradu.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:title" content="Dr Katarina Čorlija Karadžić | Stomatologija i estetska medicina Beograd">
+<meta property="og:description" content="Zdrav osmeh i prirodna lepota - stomatologija i estetska medicina uz individualan pristup, stručnost i pažnju.">
+<meta property="og:url" content="https://dr-katarina-antiaging.rs/">
+<meta property="og:image" content="https://dr-katarina-antiaging.rs/assets/img/hero-dr-katarina.jpg">
+<meta property="og:image:alt" content="dr Katarina Čorlija Karadžić tokom estetskog tretmana lica u ordinaciji">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FAE6E8">
+<link rel="canonical" href="https://dr-katarina-antiaging.rs/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&amp;family=Manrope:wght@400;500;600&amp;display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dentist","name":"Viva Dental & Aesthetic Medicine - dr Katarina Čorlija Karadžić","url":"https://dr-katarina-antiaging.rs/","telephone":"+381642357859","email":"kacacorlija@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Marka Oreškovića 34/2","addressLocality":"Beograd","addressCountry":"RS"},"sameAs":["https://www.facebook.com/antiaging.katarina/","https://www.instagram.com/dr_katarina_antiaging/"]}</script>
+<style>
+html{scroll-behavior:smooth;scroll-padding-top:84px;-webkit-text-size-adjust:100%}
+body{margin:0;background:#FAE6E8;color:#362A3B;font-family:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:clip}
+a{color:#362A3B;text-decoration-color:#EB6E9B;text-underline-offset:4px}
+a:hover{color:#65536E}
+::selection{background:#F4B3C7;color:#362A3B}
+:focus-visible{outline:2px solid #826E8B;outline-offset:3px}
+[data-dark] :focus-visible{outline-color:#FFFFFF}
+input,select,textarea,button{font:inherit;color:inherit}
+@keyframes aura-a{0%{transform:translate3d(0,0,0) rotate(0deg) scale(1)}50%{transform:translate3d(7vmax,5vmax,0) rotate(28deg) scale(1.14)}100%{transform:translate3d(-3vmax,9vmax,0) rotate(-16deg) scale(.94)}}
+@keyframes aura-b{0%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(-8vmax,6vmax,0) scale(1.16)}100%{transform:translate3d(-2vmax,-5vmax,0) scale(.9)}}
+@keyframes aura-c{0%{transform:translate3d(0,0,0) rotate(0deg) scale(1)}50%{transform:translate3d(6vmax,-6vmax,0) rotate(-24deg) scale(1.1)}100%{transform:translate3d(-5vmax,-2vmax,0) rotate(18deg) scale(.96)}}
+@keyframes aura-fade{from{opacity:0}to{opacity:1}}
+@keyframes aura-sheen{from{transform:translate3d(-24%,0,0)}to{transform:translate3d(24%,0,0)}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+</style>
+</helmet>
+{{ aura }}
+
+<a href="#main" style="position:fixed; left:16px; top:12px; z-index:100; padding:12px 16px; background:#362A3B; color:#FFFFFF; font-size:14px; text-decoration:none; transform:translateY(-220%); transition:transform .3s ease" style-focus="transform:none">Preskočite na sadržaj</a>
+
+<sc-if value="{{ mobileNav }}" hint-placeholder-val="{{ false }}">
+<div id="mobilni-meni" aria-hidden="{{ mm.hidden }}" style="position:fixed; inset:0; z-index:40; box-sizing:border-box; background:rgba(251,238,244,0.74); backdrop-filter:blur(30px) saturate(160%); padding:104px clamp(20px, 5vw, 72px) 36px; display:flex; flex-direction:column; justify-content:space-between; gap:32px; overflow-y:auto; opacity:{{ mm.op }}; visibility:{{ mm.vis }}; transform:{{ mm.tr }}; transition:opacity .45s ease, transform .45s ease, visibility .45s">
+<nav aria-label="Glavna navigacija">
+<ul style="list-style:none; margin:0; padding:0; display:flex; flex-direction:column; border-bottom:1px solid #F4B3C7">
+<li style="border-top:1px solid #F4B3C7"><a ref="{{ firstLink }}" href="#pocetna" onClick="{{ closeMenu }}" style="display:flex; align-items:baseline; gap:18px; padding:16px 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2rem, 8vw, 2.75rem); line-height:1.1; color:#362A3B; text-decoration:none"><span style="font-family:'Manrope', sans-serif; font-size:11px; letter-spacing:0.2em; color:#65536E">01</span>Početna</a></li>
+<li style="border-top:1px solid #F4B3C7"><a href="#o-doktorki" onClick="{{ closeMenu }}" style="display:flex; align-items:baseline; gap:18px; padding:16px 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2rem, 8vw, 2.75rem); line-height:1.1; color:#362A3B; text-decoration:none"><span style="font-family:'Manrope', sans-serif; font-size:11px; letter-spacing:0.2em; color:#65536E">02</span>O doktorki</a></li>
+<li style="border-top:1px solid #F4B3C7"><a href="#stomatologija" onClick="{{ closeMenu }}" style="display:flex; align-items:baseline; gap:18px; padding:16px 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2rem, 8vw, 2.75rem); line-height:1.1; color:#362A3B; text-decoration:none"><span style="font-family:'Manrope', sans-serif; font-size:11px; letter-spacing:0.2em; color:#65536E">03</span>Stomatologija</a></li>
+<li style="border-top:1px solid #F4B3C7"><a href="#estetika" onClick="{{ closeMenu }}" style="display:flex; align-items:baseline; gap:18px; padding:16px 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2rem, 8vw, 2.75rem); line-height:1.1; color:#362A3B; text-decoration:none"><span style="font-family:'Manrope', sans-serif; font-size:11px; letter-spacing:0.2em; color:#65536E">04</span>Estetika</a></li>
+<li style="border-top:1px solid #F4B3C7"><a href="#pristup" onClick="{{ closeMenu }}" style="display:flex; align-items:baseline; gap:18px; padding:16px 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2rem, 8vw, 2.75rem); line-height:1.1; color:#362A3B; text-decoration:none"><span style="font-family:'Manrope', sans-serif; font-size:11px; letter-spacing:0.2em; color:#65536E">05</span>Pristup</a></li>
+<li style="border-top:1px solid #F4B3C7"><a href="#kontakt" onClick="{{ closeMenu }}" style="display:flex; align-items:baseline; gap:18px; padding:16px 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2rem, 8vw, 2.75rem); line-height:1.1; color:#362A3B; text-decoration:none"><span style="font-family:'Manrope', sans-serif; font-size:11px; letter-spacing:0.2em; color:#65536E">06</span>Kontakt</a></li>
+</ul>
+</nav>
+<div style="display:flex; flex-direction:column; gap:18px">
+<a href="#kontakt" onClick="{{ closeMenu }}" style="display:flex; align-items:center; justify-content:center; min-height:54px; background-color:#826E8B; color:#FFFFFF; font-size:14.5px; font-weight:500; letter-spacing:0.03em; text-decoration:none; border-radius:2px">Zakažite termin</a>
+<div style="display:flex; flex-wrap:wrap; gap:4px 24px; font-size:14.5px">
+<a href="tel:+381642357859" style="display:inline-flex; align-items:center; min-height:44px; color:#362A3B; text-decoration:none">064/235-78-59</a>
+<a href="mailto:kacacorlija@gmail.com" style="display:inline-flex; align-items:center; min-height:44px; color:#362A3B; text-decoration:none">kacacorlija@gmail.com</a>
+</div>
+</div>
+</div>
+</sc-if>
+
+<header style="position:fixed; top:0; left:0; right:0; z-index:50; padding:0 clamp(20px, 5vw, 72px); background-color:{{ hdr.bg }}; border-bottom:1px solid {{ hdr.line }}; backdrop-filter:{{ hdr.blur }}; box-shadow:{{ hdr.shadow }}; transition:background-color .45s ease, border-color .45s ease, box-shadow .45s ease, backdrop-filter .45s ease">
+<div style="max-width:1320px; margin:0 auto; padding:{{ hdr.pad }}; display:flex; align-items:center; justify-content:space-between; gap:24px; transition:padding .45s ease">
+<a href="#pocetna" aria-label="Dr Katarina, stomatologija i estetska medicina - na početak" style="display:flex; flex-direction:column; justify-content:center; gap:4px; min-height:44px; color:#362A3B; text-decoration:none">
+<span style="font-family:'Cormorant Garamond', Georgia, serif; font-size:25px; font-weight:500; line-height:1; letter-spacing:0.005em">Dr Katarina</span>
+<span style="font-size:10px; font-weight:500; letter-spacing:0.3em; text-transform:uppercase; color:#65536E">Dental &amp; Aesthetic</span>
+</a>
+<sc-if value="{{ deskNav }}" hint-placeholder-val="{{ true }}">
+<nav aria-label="Glavna navigacija" style="display:flex; align-items:center; gap:clamp(24px, 3vw, 44px)">
+<ul style="list-style:none; margin:0; padding:0; display:flex; align-items:center; gap:clamp(20px, 2.4vw, 36px)">
+<li><a href="#pocetna" aria-current="{{ cur.pocetna }}" style="display:inline-flex; align-items:center; min-height:44px; font-size:13.5px; font-weight:500; letter-spacing:0.02em; color:#362A3B; text-decoration:none; background-image:linear-gradient(#EB6E9B, #EB6E9B); background-repeat:no-repeat; background-position:0 calc(100% - 9px); background-size:{{ nav.pocetna }}; transition:background-size .45s cubic-bezier(.2,.7,.2,1)" style-hover="background-size:100% 1px">Početna</a></li>
+<li><a href="#o-doktorki" aria-current="{{ cur.doktorka }}" style="display:inline-flex; align-items:center; min-height:44px; font-size:13.5px; font-weight:500; letter-spacing:0.02em; color:#362A3B; text-decoration:none; background-image:linear-gradient(#EB6E9B, #EB6E9B); background-repeat:no-repeat; background-position:0 calc(100% - 9px); background-size:{{ nav.doktorka }}; transition:background-size .45s cubic-bezier(.2,.7,.2,1)" style-hover="background-size:100% 1px">O doktorki</a></li>
+<li><a href="#stomatologija" aria-current="{{ cur.stomatologija }}" style="display:inline-flex; align-items:center; min-height:44px; font-size:13.5px; font-weight:500; letter-spacing:0.02em; color:#362A3B; text-decoration:none; background-image:linear-gradient(#EB6E9B, #EB6E9B); background-repeat:no-repeat; background-position:0 calc(100% - 9px); background-size:{{ nav.stomatologija }}; transition:background-size .45s cubic-bezier(.2,.7,.2,1)" style-hover="background-size:100% 1px">Stomatologija</a></li>
+<li><a href="#estetika" aria-current="{{ cur.estetika }}" style="display:inline-flex; align-items:center; min-height:44px; font-size:13.5px; font-weight:500; letter-spacing:0.02em; color:#362A3B; text-decoration:none; background-image:linear-gradient(#EB6E9B, #EB6E9B); background-repeat:no-repeat; background-position:0 calc(100% - 9px); background-size:{{ nav.estetika }}; transition:background-size .45s cubic-bezier(.2,.7,.2,1)" style-hover="background-size:100% 1px">Estetika</a></li>
+<li><a href="#pristup" aria-current="{{ cur.pristup }}" style="display:inline-flex; align-items:center; min-height:44px; font-size:13.5px; font-weight:500; letter-spacing:0.02em; color:#362A3B; text-decoration:none; background-image:linear-gradient(#EB6E9B, #EB6E9B); background-repeat:no-repeat; background-position:0 calc(100% - 9px); background-size:{{ nav.pristup }}; transition:background-size .45s cubic-bezier(.2,.7,.2,1)" style-hover="background-size:100% 1px">Pristup</a></li>
+<li><a href="#kontakt" aria-current="{{ cur.kontakt }}" style="display:inline-flex; align-items:center; min-height:44px; font-size:13.5px; font-weight:500; letter-spacing:0.02em; color:#362A3B; text-decoration:none; background-image:linear-gradient(#EB6E9B, #EB6E9B); background-repeat:no-repeat; background-position:0 calc(100% - 9px); background-size:{{ nav.kontakt }}; transition:background-size .45s cubic-bezier(.2,.7,.2,1)" style-hover="background-size:100% 1px">Kontakt</a></li>
+</ul>
+<a href="#kontakt" style="display:inline-flex; align-items:center; min-height:44px; padding:0 20px; border:1px solid #362A3B; border-radius:2px; color:#362A3B; font-size:13.5px; font-weight:500; letter-spacing:0.02em; text-decoration:none; transition:background-color .4s ease, border-color .4s ease" style-hover="background-color:#F4B3C7; border-color:#F4B3C7">Zakažite termin</a>
+</nav>
+</sc-if>
+<sc-if value="{{ mobileNav }}" hint-placeholder-val="{{ false }}">
+<button ref="{{ menuBtn }}" type="button" aria-expanded="{{ hb.exp }}" aria-controls="mobilni-meni" aria-label="{{ hb.label }}" onClick="{{ toggleMenu }}" style="width:48px; height:48px; margin-right:-12px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:7px; background:none; border:0; cursor:pointer">
+<span style="display:block; width:24px; height:1px; background:#362A3B; transition:transform .4s ease; transform:{{ hb.t1 }}"></span>
+<span style="display:block; width:24px; height:1px; background:#362A3B; transition:transform .4s ease; transform:{{ hb.t2 }}"></span>
+</button>
+</sc-if>
+</div>
+</header>
+
+<main id="main" style="position:relative; z-index:1">
+
+<section id="pocetna" data-screen-label="01 Početna" aria-labelledby="hero-naslov" style="background:transparent">
+<sc-if value="{{ heroFramed }}" hint-placeholder-val="{{ true }}">
+<div style="min-height:100svh; box-sizing:border-box; display:flex; align-items:center; padding:clamp(108px, 15vh, 148px) clamp(20px, 5vw, 72px) clamp(48px, 8vh, 88px)">
+<div style="width:100%; max-width:1320px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; gap:clamp(44px, 5vw, 88px)">
+<div data-reveal="" style="flex:1.35 1 480px; min-width:0">
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 28px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#65536E"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Stomatologija i estetika</p>
+<h1 id="hero-naslov" style="margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(3.15rem, 6.2vw, 5.9rem); line-height:1.02; letter-spacing:-0.015em; color:#362A3B"><span style="display:block; text-wrap:balance">Zdrav osmeh.</span><span style="display:block; font-style:italic; color:#826E8B; padding-left:clamp(0px, 4.4vw, 84px)">Prirodna lepota.</span></h1>
+<p style="margin:clamp(26px, 3.2vw, 40px) 0 0; max-width:29rem; font-size:clamp(1.03rem, 0.98rem + 0.25vw, 1.15rem); line-height:1.75; color:#65536E; text-wrap:pretty">Stomatološka nega i estetska medicina na jednom mestu - individualno, stručno i sa merom.</p>
+<div style="margin-top:clamp(30px, 3.8vw, 48px); display:flex; flex-wrap:wrap; align-items:center; gap:12px 32px">
+<a href="#kontakt" style="display:inline-flex; align-items:center; justify-content:center; min-height:54px; padding:0 30px; background-color:#826E8B; color:#FFFFFF; font-size:14px; font-weight:500; letter-spacing:0.03em; text-decoration:none; border-radius:2px; transition:background-color .45s ease, color .45s ease" style-hover="background-color:#EB6E9B; color:#362A3B">Zakažite termin</a>
+<a href="#o-doktorki" style="display:inline-flex; align-items:center; gap:10px; min-height:44px; font-size:14px; font-weight:500; color:#362A3B; text-decoration:none; background-image:linear-gradient(#EB6E9B, #EB6E9B); background-repeat:no-repeat; background-size:100% 1px; background-position:0 calc(100% - 9px)" style-hover="color:#65536E; background-image:linear-gradient(#362A3B, #362A3B)">Upoznajte dr Katarinu <span aria-hidden="true">→</span></a>
+</div>
+<div style="margin-top:clamp(44px, 7vh, 80px); padding-top:20px; border-top:1px solid #F4B3C7; max-width:29rem; display:flex; flex-direction:column; gap:4px">
+<span style="font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:21px; line-height:1.3; color:#362A3B">dr Katarina Čorlija Karadžić</span>
+<span style="font-size:13px; line-height:1.6; color:#65536E">Doktorka stomatologije i sertifikovana doktorka estetske medicine</span>
+</div>
+</div>
+<figure style="flex:1 1 340px; max-width:520px; margin:0 0 0 auto; display:flex; flex-direction:column; gap:14px">
+<div data-reveal="img" style="position:relative; aspect-ratio:4 / 5; overflow:hidden; background-color:rgba(255,255,255,0.26); background-image:linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.12) 42%, rgba(226,212,250,0.4) 72%, rgba(206,238,238,0.44) 100%); box-shadow:inset 0 0 0 1px rgba(255,255,255,0.7); color:#65536E">
+<img src="assets/img/hero-dr-katarina.jpg" alt="dr Katarina Čorlija Karadžić tokom estetskog tretmana lica u ordinaciji" loading="eager" fetchpriority="high" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+<figcaption style="display:flex; align-items:center; gap:12px; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:17px; color:#65536E"><span aria-hidden="true" style="width:20px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Individualna nega osmeha i lica.</figcaption>
+</figure>
+</div>
+</div>
+</sc-if>
+<sc-if value="{{ heroBleed }}" hint-placeholder-val="{{ false }}">
+<div style="min-height:100svh; display:flex; flex-wrap:wrap; align-items:stretch">
+<div data-reveal="" style="flex:1.2 1 480px; min-width:0; box-sizing:border-box; display:flex; flex-direction:column; justify-content:center; padding:clamp(116px, 16vh, 156px) clamp(20px, 5vw, 72px) clamp(48px, 8vh, 88px) max(clamp(20px, 5vw, 72px), calc((100vw - 1320px) / 2))">
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 28px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#65536E"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Stomatologija i estetika</p>
+<h1 id="hero-naslov" style="margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(3.15rem, 5.8vw, 5.6rem); line-height:1.02; letter-spacing:-0.015em; color:#362A3B"><span style="display:block; text-wrap:balance">Zdrav osmeh.</span><span style="display:block; font-style:italic; color:#826E8B; padding-left:clamp(0px, 4.4vw, 84px)">Prirodna lepota.</span></h1>
+<p style="margin:clamp(26px, 3.2vw, 40px) 0 0; max-width:29rem; font-size:clamp(1.03rem, 0.98rem + 0.25vw, 1.15rem); line-height:1.75; color:#65536E; text-wrap:pretty">Stomatološka nega i estetska medicina na jednom mestu - individualno, stručno i sa merom.</p>
+<div style="margin-top:clamp(30px, 3.8vw, 48px); display:flex; flex-wrap:wrap; align-items:center; gap:12px 32px">
+<a href="#kontakt" style="display:inline-flex; align-items:center; justify-content:center; min-height:54px; padding:0 30px; background-color:#826E8B; color:#FFFFFF; font-size:14px; font-weight:500; letter-spacing:0.03em; text-decoration:none; border-radius:2px; transition:background-color .45s ease, color .45s ease" style-hover="background-color:#EB6E9B; color:#362A3B">Zakažite termin</a>
+<a href="#o-doktorki" style="display:inline-flex; align-items:center; gap:10px; min-height:44px; font-size:14px; font-weight:500; color:#362A3B; text-decoration:none; background-image:linear-gradient(#EB6E9B, #EB6E9B); background-repeat:no-repeat; background-size:100% 1px; background-position:0 calc(100% - 9px)" style-hover="color:#65536E; background-image:linear-gradient(#362A3B, #362A3B)">Upoznajte dr Katarinu <span aria-hidden="true">→</span></a>
+</div>
+<div style="margin-top:clamp(44px, 7vh, 80px); padding-top:20px; border-top:1px solid #F4B3C7; max-width:29rem; display:flex; flex-direction:column; gap:4px">
+<span style="font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:21px; line-height:1.3; color:#362A3B">dr Katarina Čorlija Karadžić</span>
+<span style="font-size:13px; line-height:1.6; color:#65536E">Doktorka stomatologije i sertifikovana doktorka estetske medicine</span>
+</div>
+</div>
+<figure style="flex:1 1 380px; margin:0; position:relative; min-height:max(62svh, 420px); box-sizing:border-box; padding-top:{{ bleedTop }}; display:flex">
+<div data-reveal="img" style="position:relative; flex:1; overflow:hidden; background-color:rgba(255,255,255,0.26); background-image:linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.12) 42%, rgba(226,212,250,0.4) 72%, rgba(206,238,238,0.44) 100%); box-shadow:inset 0 0 0 1px rgba(255,255,255,0.7); color:#65536E">
+<img src="assets/img/hero-dr-katarina.jpg" alt="dr Katarina Čorlija Karadžić tokom estetskog tretmana lica u ordinaciji" loading="eager" fetchpriority="high" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+<figcaption style="position:absolute; left:16px; bottom:16px; pointer-events:none; display:flex; align-items:center; gap:12px; padding:10px 16px; background:rgba(252,240,246,0.66); backdrop-filter:blur(16px) saturate(160%); border:1px solid rgba(255,255,255,0.7); border-radius:2px; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:17px; color:#65536E"><span aria-hidden="true" style="width:20px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Individualna nega osmeha i lica.</figcaption>
+</div>
+</figure>
+</div>
+</sc-if>
+</section>
+
+<section aria-labelledby="filozofija-naslov" data-screen-label="02 Filozofija" style="background:linear-gradient(100deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.26) 42%, rgba(242,234,253,0.34) 72%, rgba(232,246,246,0.38) 100%); box-shadow:inset 0 1px 0 rgba(255,255,255,0.9), inset 0 -1px 0 rgba(255,255,255,0.5); padding:clamp(96px, 12vw, 176px) clamp(20px, 5vw, 72px)">
+<div style="max-width:1320px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; gap:clamp(48px, 7vw, 128px)">
+<div data-reveal="" style="flex:1.25 1 460px; min-width:0">
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 28px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#65536E"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Lepota sa merom</p>
+<h2 id="filozofija-naslov" style="margin:0; max-width:14ch; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2.5rem, 1.3rem + 3.8vw, 4.75rem); line-height:1.05; letter-spacing:-0.01em; color:#362A3B; text-wrap:balance">Najlepši rezultat je onaj u kome <em style="color:#826E8B">prepoznajete sebe.</em></h2>
+<div style="margin-top:clamp(36px, 4vw, 56px); display:flex; flex-wrap:wrap; align-items:flex-start; gap:20px clamp(20px, 3vw, 40px)">
+<span aria-hidden="true" style="flex:none; width:56px; height:1px; margin-top:14px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>
+<div style="flex:1 1 280px; max-width:31rem">
+<p style="margin:0; font-size:clamp(1.02rem, 0.97rem + 0.2vw, 1.1rem); line-height:1.8; color:#65536E; text-wrap:pretty">Verujem da i stomatologija i estetska medicina treba da prate vašu individualnost. Zato svaki plan počinje zdravljem, a cilj je skladan, negovan i prirodan izgled - bez preterivanja.</p>
+<p style="margin:18px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:21px; color:#362A3B">- dr Katarina</p>
+</div>
+</div>
+</div>
+<figure style="flex:1 1 300px; max-width:470px; margin:0 0 0 auto">
+<div data-reveal="img" style="position:relative; aspect-ratio:4 / 5; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/filozofija-osmeh.jpg" alt="Krupni plan nasmejanog lica sa zdravim, belim zubima" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+</figure>
+</div>
+</section>
+
+<section id="o-doktorki" data-screen-label="03 O doktorki" aria-labelledby="doktorka-naslov" style="background:transparent; padding:clamp(96px, 12vw, 176px) clamp(20px, 5vw, 72px)">
+<div style="max-width:1320px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:flex-start; gap:clamp(48px, 7vw, 120px)">
+<figure style="flex:1 1 340px; max-width:540px; margin:0; display:flex; flex-direction:column; gap:14px">
+<div data-reveal="img" style="position:relative; aspect-ratio:4 / 5; overflow:hidden; background-color:rgba(255,255,255,0.26); background-image:linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.12) 42%, rgba(226,212,250,0.4) 72%, rgba(206,238,238,0.44) 100%); box-shadow:inset 0 0 0 1px rgba(255,255,255,0.7); color:#65536E">
+<img src="assets/img/doktorka-portret.jpg" alt="Portret dr Katarine Čorlije Karadžić u belom mantilu, u ordinaciji" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+</figure>
+<div data-reveal="" style="flex:1.1 1 420px; min-width:0; padding-top:clamp(0px, 3vw, 48px)">
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 28px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#65536E"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Upoznajte doktorku</p>
+<h2 id="doktorka-naslov" style="margin:0; max-width:16ch; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2.4rem, 1.3rem + 3.3vw, 4.25rem); line-height:1.06; letter-spacing:-0.01em; color:#362A3B; text-wrap:balance">Stručnost, posvećenost i osećaj za <em style="color:#826E8B">prirodnu lepotu.</em></h2>
+<div style="margin-top:clamp(36px, 4vw, 52px); padding:22px 0; border-top:1px solid #F4B3C7; border-bottom:1px solid #F4B3C7; display:flex; flex-direction:column; gap:6px">
+<p style="margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.6rem, 1.3rem + 0.9vw, 2.1rem); line-height:1.2; color:#362A3B">dr Katarina Čorlija Karadžić</p>
+<p style="margin:0; font-size:14.5px; line-height:1.6; color:#65536E">Doktorka stomatologije i sertifikovana doktorka estetske medicine.</p>
+</div>
+<div style="margin-top:30px; display:flex; flex-direction:column; gap:18px; max-width:34rem">
+<p style="margin:0; font-size:clamp(1rem, 0.97rem + 0.15vw, 1.0625rem); line-height:1.8; color:#65536E; text-wrap:pretty">Kao doktorka stomatologije, svakodnevno brine o zdravlju i izgledu osmeha svojih pacijenata. Znanje iz estetske medicine koristi da tu negu proširi i na lice - uz isti pažljiv i strpljiv pristup.</p>
+<p style="margin:0; font-size:clamp(1rem, 0.97rem + 0.15vw, 1.0625rem); line-height:1.8; color:#65536E; text-wrap:pretty">Pre svake preporuke važno joj je da razume vaše želje i očekivanja. Plan je uvek individualan - sa merom i uz poštovanje vaših prirodnih crta.</p>
+</div>
+<dl style="margin:clamp(32px, 4vw, 44px) 0 0; display:grid; grid-template-columns:minmax(0, 8.5rem) minmax(0, 1fr); max-width:34rem; font-size:14.5px; line-height:1.5">
+<dt style="padding:14px 16px 14px 0; border-top:1px solid #F4B3C7; font-size:11px; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#65536E">Ordinacija</dt>
+<dd style="margin:0; padding:14px 0; border-top:1px solid #F4B3C7; color:#362A3B">Viva Dental &amp; Aesthetic Medicine</dd>
+<dt style="padding:14px 16px 14px 0; border-top:1px solid #F4B3C7; border-bottom:1px solid #F4B3C7; font-size:11px; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#65536E">Lokacija</dt>
+<dd style="margin:0; padding:14px 0; border-top:1px solid #F4B3C7; border-bottom:1px solid #F4B3C7; color:#362A3B">Marka Oreškovića 34/2, Beograd</dd>
+</dl>
+<div style="margin-top:40px">
+<a href="#kontakt" style="display:inline-flex; align-items:center; min-height:50px; padding:0 26px; border:1px solid #362A3B; border-radius:2px; color:#362A3B; font-size:14px; font-weight:500; letter-spacing:0.03em; text-decoration:none; transition:background-color .4s ease, border-color .4s ease" style-hover="background-color:#F4B3C7; border-color:#F4B3C7">Zakažite termin</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="stomatologija" data-screen-label="04 Stomatologija" aria-labelledby="stomatologija-naslov" style="background:linear-gradient(100deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.26) 42%, rgba(242,234,253,0.34) 72%, rgba(232,246,246,0.38) 100%); box-shadow:inset 0 1px 0 rgba(255,255,255,0.9), inset 0 -1px 0 rgba(255,255,255,0.5); padding:clamp(96px, 12vw, 168px) clamp(20px, 5vw, 72px) clamp(120px, 14vw, 200px)">
+<div style="max-width:1320px; margin:0 auto">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:28px 64px; padding-bottom:clamp(40px, 5vw, 64px); margin-bottom:clamp(48px, 6vw, 88px); border-bottom:1px solid #E69CBA">
+<div style="flex:1 1 520px; min-width:0">
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 28px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#65536E"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Stomatologija</p>
+<h2 id="stomatologija-naslov" style="margin:0; max-width:16ch; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2.4rem, 1.3rem + 3.3vw, 4.25rem); line-height:1.06; letter-spacing:-0.01em; color:#362A3B; text-wrap:balance">Od zdravlja zuba <em style="color:#826E8B">do lepote osmeha.</em></h2>
+</div>
+<div style="flex:0 1 380px; min-width:0">
+<p style="margin:0; font-size:clamp(1rem, 0.97rem + 0.15vw, 1.0625rem); line-height:1.8; color:#65536E; text-wrap:pretty">Stomatološka nega prilagođena vašim zubima, navikama i željama - uz jasno objašnjenje svakog koraka.</p>
+</div>
+</div>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 400px), 1fr)); column-gap:clamp(32px, 5vw, 96px); row-gap:clamp(64px, 8vw, 120px); align-items:start">
+
+<article aria-labelledby="d1-naslov" style="min-width:0">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.26); background-image:linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.12) 42%, rgba(226,212,250,0.4) 72%, rgba(206,238,238,0.44) 100%); box-shadow:inset 0 0 0 1px rgba(255,255,255,0.7); color:#65536E">
+<img src="assets/img/s01-stomatoloski-pregled.jpg" alt="Stomatološki pregled nasmejane pacijentkinje dentalnim ogledalcetom" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #E69CBA; display:flex; justify-content:space-between; align-items:baseline; gap:12px"><span style="font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">01</span><span style="font-size:10.5px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:#65536E">Opšta stomatologija</span></div>
+<h3 id="d1-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Pregledi i preventiva</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Redovne kontrole, profesionalno čišćenje i uklanjanje kamenca, uz savete za svakodnevnu negu zuba i desni.</p>
+<button type="button" aria-expanded="{{ d1.exp }}" aria-controls="d1-panel" onClick="{{ dg1 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ d1.rot }}"></span></span></button>
+<div id="d1-panel" role="region" aria-labelledby="d1-naslov" style="display:grid; grid-template-rows:{{ d1.rows }}; visibility:{{ d1.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Redovan pregled omogućava da se promene na zubima i desnima uoče na vreme, dok je njihovo rešavanje jednostavnije. Uz čišćenje i uklanjanje kamenca dobijate i preporuke za negu prilagođene vašim zubima.</p>
+<a href="#kontakt" onClick="{{ dk1 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovoj usluzi →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="d2-naslov" style="min-width:0; transform:{{ stagger }}">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.26); background-image:linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.12) 42%, rgba(226,212,250,0.4) 72%, rgba(206,238,238,0.44) 100%); box-shadow:inset 0 0 0 1px rgba(255,255,255,0.7); color:#65536E">
+<img src="assets/img/s02-popravke.jpg" alt="Krupni plan osmeha sa zdravim, belim zubima" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #E69CBA; display:flex; justify-content:space-between; align-items:baseline; gap:12px"><span style="font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">02</span><span style="font-size:10.5px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:#65536E">Opšta stomatologija</span></div>
+<h3 id="d2-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Popravke zuba</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Estetske ispune u boji zuba, koje vraćaju funkciju i prirodan izgled oštećenog zuba.</p>
+<button type="button" aria-expanded="{{ d2.exp }}" aria-controls="d2-panel" onClick="{{ dg2 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ d2.rot }}"></span></span></button>
+<div id="d2-panel" role="region" aria-labelledby="d2-naslov" style="display:grid; grid-template-rows:{{ d2.rows }}; visibility:{{ d2.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Oštećeni deo zuba nadoknađuje se kompozitnim materijalom u boji zuba. Nijansa se bira tako da se popravka neprimetno uklopi u osmeh.</p>
+<a href="#kontakt" onClick="{{ dk2 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovoj usluzi →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="d3-naslov" style="min-width:0">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.26); background-image:linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.12) 42%, rgba(226,212,250,0.4) 72%, rgba(206,238,238,0.44) 100%); box-shadow:inset 0 0 0 1px rgba(255,255,255,0.7); color:#65536E">
+<img src="assets/img/s03-lecenje-ordinacija.jpg" alt="Stomatološko ogledalce u prvom planu, u pozadini svetla ordinacija" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #E69CBA; display:flex; justify-content:space-between; align-items:baseline; gap:12px"><span style="font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">03</span><span style="font-size:10.5px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:#65536E">Opšta stomatologija</span></div>
+<h3 id="d3-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Lečenje zuba</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Lečenje karijesa i kanala korena, sa ciljem da se sačuva sopstveni zub.</p>
+<button type="button" aria-expanded="{{ d3.exp }}" aria-controls="d3-panel" onClick="{{ dg3 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ d3.rot }}"></span></span></button>
+<div id="d3-panel" role="region" aria-labelledby="d3-naslov" style="display:grid; grid-template-rows:{{ d3.rows }}; visibility:{{ d3.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Kada karijes ili upala zahvate dublje slojeve zuba, zub se leči i zatvara iznutra. Cilj je da se sopstveni zub sačuva što duže.</p>
+<a href="#kontakt" onClick="{{ dk3 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovoj usluzi →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="d4-naslov" style="min-width:0; transform:{{ stagger }}">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.26); background-image:linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.12) 42%, rgba(226,212,250,0.4) 72%, rgba(206,238,238,0.44) 100%); box-shadow:inset 0 0 0 1px rgba(255,255,255,0.7); color:#65536E">
+<img src="assets/img/s04-izbeljivanje.jpg" alt="Blistav, beo osmeh u krupnom planu" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #E69CBA; display:flex; justify-content:space-between; align-items:baseline; gap:12px"><span style="font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">04</span><span style="font-size:10.5px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:#65536E">Estetska stomatologija</span></div>
+<h3 id="d4-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Izbeljivanje zuba</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Lasersko izbeljivanje u ordinaciji za svetliji osmeh - nakon pregleda i procene.</p>
+<button type="button" aria-expanded="{{ d4.exp }}" aria-controls="d4-panel" onClick="{{ dg4 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ d4.rot }}"></span></span></button>
+<div id="d4-panel" role="region" aria-labelledby="d4-naslov" style="display:grid; grid-template-rows:{{ d4.rows }}; visibility:{{ d4.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Pre izbeljivanja proverava se stanje zuba i desni i dogovara nijansa koja izgleda prirodno. Tretman se obavlja u ordinaciji, a savete za očuvanje rezultata dobijate odmah nakon njega.</p>
+<a href="#kontakt" onClick="{{ dk4 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovoj usluzi →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="d5-naslov" style="min-width:0">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.26); background-image:linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.12) 42%, rgba(226,212,250,0.4) 72%, rgba(206,238,238,0.44) 100%); box-shadow:inset 0 0 0 1px rgba(255,255,255,0.7); color:#65536E">
+<img src="assets/img/s05-fasete.jpg" alt="Prirodan osmeh u krupnom planu" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #E69CBA; display:flex; justify-content:space-between; align-items:baseline; gap:12px"><span style="font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">05</span><span style="font-size:10.5px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:#65536E">Estetska stomatologija</span></div>
+<h3 id="d5-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Fasete</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Tanke ljuspice koje ujednačavaju oblik, veličinu i boju prednjih zuba.</p>
+<button type="button" aria-expanded="{{ d5.exp }}" aria-controls="d5-panel" onClick="{{ dg5 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ d5.rot }}"></span></span></button>
+<div id="d5-panel" role="region" aria-labelledby="d5-naslov" style="display:grid; grid-template-rows:{{ d5.rows }}; visibility:{{ d5.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Fasete se postavljaju na prednju površinu zuba i mogu da koriguju oblik, boju i manje nepravilnosti. Da li su pravo rešenje, procenjuje se nakon pregleda i razgovora o izgledu koji želite.</p>
+<a href="#kontakt" onClick="{{ dk5 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovoj usluzi →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="d6-naslov" style="min-width:0; transform:{{ stagger }}">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.26); background-image:linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.12) 42%, rgba(226,212,250,0.4) 72%, rgba(206,238,238,0.44) 100%); box-shadow:inset 0 0 0 1px rgba(255,255,255,0.7); color:#65536E">
+<img src="assets/img/s06-keramika-krunice.jpg" alt="Prozirne keramičke krunice u krupnom planu, na svetloj pozadini" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #E69CBA; display:flex; justify-content:space-between; align-items:baseline; gap:12px"><span style="font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">06</span><span style="font-size:10.5px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:#65536E">Estetska stomatologija</span></div>
+<h3 id="d6-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Bezmetalne krunice</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Krunice bez metala, prirodnog izgleda, za obnovu i zaštitu oštećenih zuba.</p>
+<button type="button" aria-expanded="{{ d6.exp }}" aria-controls="d6-panel" onClick="{{ dg6 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ d6.rot }}"></span></span></button>
+<div id="d6-panel" role="region" aria-labelledby="d6-naslov" style="display:grid; grid-template-rows:{{ d6.rows }}; visibility:{{ d6.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Bezmetalne krunice prekrivaju i štite oslabljen zub, a svetlost propuštaju slično prirodnom zubu. Oblik i nijansa prilagođavaju se susednim zubima.</p>
+<a href="#kontakt" onClick="{{ dk6 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovoj usluzi →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+<section id="estetika" data-screen-label="05 Estetika" aria-labelledby="estetika-naslov" style="background:transparent; padding:clamp(96px, 12vw, 168px) clamp(20px, 5vw, 72px) clamp(120px, 14vw, 200px)">
+<div style="max-width:1320px; margin:0 auto">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:28px 64px; padding-bottom:clamp(40px, 5vw, 64px); margin-bottom:clamp(48px, 6vw, 88px); border-bottom:1px solid #F4B3C7">
+<div style="flex:1 1 520px; min-width:0">
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 28px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#65536E"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Estetska medicina</p>
+<h2 id="estetika-naslov" style="margin:0; max-width:16ch; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2.4rem, 1.3rem + 3.3vw, 4.25rem); line-height:1.06; letter-spacing:-0.01em; color:#362A3B; text-wrap:balance">Individualna nega, pažljivo odabrana <em style="color:#826E8B">za vas.</em></h2>
+</div>
+<div style="flex:0 1 380px; min-width:0">
+<p style="margin:0; font-size:clamp(1rem, 0.97rem + 0.15vw, 1.0625rem); line-height:1.8; color:#65536E; text-wrap:pretty">Svaka koža je drugačija. Izbor tretmana počinje razumevanjem vaših potreba, želja i stručnom procenom.</p>
+</div>
+</div>
+
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 400px), 1fr)); column-gap:clamp(32px, 5vw, 96px); row-gap:clamp(64px, 8vw, 120px); align-items:start">
+
+<article aria-labelledby="t1-naslov" style="min-width:0">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/e01-mezoterapija-lica.jpg" alt="Ružičasti mehurići seruma u krupnom planu" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #F4B3C7; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">01</div>
+<h3 id="t1-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Mezoterapija lica</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Individualno prilagođena nega usmerena na hidrataciju, osvežen izgled i kvalitet kože.</p>
+<button type="button" aria-expanded="{{ t1.exp }}" aria-controls="t1-panel" onClick="{{ tg1 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ t1.rot }}"></span></span></button>
+<div id="t1-panel" role="region" aria-labelledby="t1-naslov" style="display:grid; grid-template-rows:{{ t1.rows }}; visibility:{{ t1.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Mezoterapija je medicinska metoda kojom se aktivne supstance - poput vitamina, minerala, hijaluronske kiseline i antioksidanasa - unose u srednji sloj kože. Sastav i plan tretmana određuju se individualno, nakon pregleda kože i razgovora.</p>
+<a href="#kontakt" onClick="{{ pk1 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovom tretmanu →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="t2-naslov" style="min-width:0; transform:{{ stagger }}">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/e02-hijaluronski-fileri.jpg" alt="Providni gel u staklenim diskovima na breskva podlozi" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #F4B3C7; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">02</div>
+<h3 id="t2-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Hijaluronski fileri</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Pažljivo planirane korekcije i podrška prirodnoj harmoniji i proporcijama lica.</p>
+<button type="button" aria-expanded="{{ t2.exp }}" aria-controls="t2-panel" onClick="{{ tg2 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ t2.rot }}"></span></span></button>
+<div id="t2-panel" role="region" aria-labelledby="t2-naslov" style="display:grid; grid-template-rows:{{ t2.rows }}; visibility:{{ t2.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Hijaluronska kiselina je supstanca koja je prirodno prisutna u koži. Da li je filer pravi izbor, za koju regiju i u kojoj meri, dogovara se tek nakon procene proporcija lica i razgovora o vašim očekivanjima.</p>
+<a href="#kontakt" onClick="{{ pk2 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovom tretmanu →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="t3-naslov" style="min-width:0">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/e03-botulinum.jpg" alt="Svilenkasti nabori bele kreme" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #F4B3C7; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">03</div>
+<h3 id="t3-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Botulinum toksin tretmani</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Medicinski pristup tretiranju mimičkih bora, uz individualnu procenu i planiranje.</p>
+<button type="button" aria-expanded="{{ t3.exp }}" aria-controls="t3-panel" onClick="{{ tg3 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ t3.rot }}"></span></span></button>
+<div id="t3-panel" role="region" aria-labelledby="t3-naslov" style="display:grid; grid-template-rows:{{ t3.rows }}; visibility:{{ t3.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Tretman se razmatra nakon procene mimike i razgovora o tome šta vam je važno. Cilj je negovan, odmoran izgled koji čuva vaš prirodan izraz lica.</p>
+<a href="#kontakt" onClick="{{ pk3 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovom tretmanu →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="t4-naslov" style="min-width:0; transform:{{ stagger }}">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/e04-hemijski-piling.jpg" alt="Potez bele kreme na breskva podlozi" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #F4B3C7; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">04</div>
+<h3 id="t4-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Hemijski piling</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Tretmani usmereni na obnovu površinskog sloja kože i poboljšanje njenog izgleda, u skladu sa indikacijama.</p>
+<button type="button" aria-expanded="{{ t4.exp }}" aria-controls="t4-panel" onClick="{{ tg4 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ t4.rot }}"></span></span></button>
+<div id="t4-panel" role="region" aria-labelledby="t4-naslov" style="display:grid; grid-template-rows:{{ t4.rows }}; visibility:{{ t4.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Na kožu se nanose rastvori odabranih kiselina koji podstiču obnavljanje njenog površinskog sloja. Vrsta i dubina pilinga biraju se prema tipu kože i indikacijama, a posle tretmana posebno je važna zaštita od sunca.</p>
+<a href="#kontakt" onClick="{{ pk4 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovom tretmanu →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="t5-naslov" style="min-width:0">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/e05-mezoniti.jpg" alt="Meki nabori bele pene" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #F4B3C7; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">05</div>
+<h3 id="t5-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Mezoniti</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Procedura koja se razmatra individualno, nakon stručne procene i razgovora o mogućnostima i očekivanjima.</p>
+<button type="button" aria-expanded="{{ t5.exp }}" aria-controls="t5-panel" onClick="{{ tg5 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ t5.rot }}"></span></span></button>
+<div id="t5-panel" role="region" aria-labelledby="t5-naslov" style="display:grid; grid-template-rows:{{ t5.rows }}; visibility:{{ t5.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">O mezonitima se razgovara individualno - nakon stručne procene, uz jasno objašnjenje mogućnosti, ograničenja i realnih očekivanja.</p>
+<a href="#kontakt" onClick="{{ pk5 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovom tretmanu →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+<article aria-labelledby="t6-naslov" style="min-width:0; transform:{{ stagger }}">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; gap:26px 36px; align-items:flex-start">
+<div style="flex:1 1 300px; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/e06-kosa-podocnjaci.jpg" alt="Tri kapi seruma u staklenim diskovima" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; transition:transform 1.2s cubic-bezier(.2,.7,.2,1); object-fit:cover; display:block" style-hover="transform:scale(1.04)">
+</div>
+<div style="flex:1 1 270px; min-width:0; display:flex; flex-direction:column">
+<div style="padding-bottom:14px; border-bottom:1px solid #F4B3C7; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:20px; line-height:1; color:#65536E">06</div>
+<h3 id="t6-naslov" style="margin:20px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.75rem, 1.45rem + 0.9vw, 2.3rem); line-height:1.12; color:#362A3B; text-wrap:balance">Mezoterapija kose i regije podočnjaka</h3>
+<p style="margin:12px 0 0; max-width:30rem; font-size:16px; line-height:1.7; color:#65536E; text-wrap:pretty">Specijalizovani tretmani koji se razmatraju u skladu sa potrebama pacijenta i medicinskom procenom.</p>
+<button type="button" aria-expanded="{{ t6.exp }}" aria-controls="t6-panel" onClick="{{ tg6 }}" style="margin-top:12px; align-self:flex-start; display:inline-flex; align-items:center; gap:12px; min-height:44px; padding:0; background:none; border:0; cursor:pointer; font-size:14px; font-weight:500; color:#362A3B">Saznajte više<span aria-hidden="true" style="position:relative; width:11px; height:11px"><span style="position:absolute; left:0; top:5px; width:11px; height:1px; background:#362A3B"></span><span style="position:absolute; left:5px; top:0; width:1px; height:11px; background:#362A3B; transition:transform .45s ease; transform:{{ t6.rot }}"></span></span></button>
+<div id="t6-panel" role="region" aria-labelledby="t6-naslov" style="display:grid; grid-template-rows:{{ t6.rows }}; visibility:{{ t6.vis }}; transition:grid-template-rows .55s cubic-bezier(.2,.7,.2,1), visibility .55s"><div style="overflow:hidden; min-height:0"><div style="padding:6px 0 4px; display:flex; flex-direction:column; gap:10px; max-width:30rem">
+<p style="margin:0; font-size:15px; line-height:1.7; color:#4B3D52">Tretmani kose i osetljive regije oko očiju razmatraju se nakon pregleda i razgovora o vašim potrebama. Plan se prilagođava svakom pacijentu pojedinačno.</p>
+<a href="#kontakt" onClick="{{ pk6 }}" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Pitajte o ovom tretmanu →</a>
+</div></div></div>
+</div>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+<section id="pristup" data-screen-label="06 Pristup" aria-labelledby="pristup-naslov" style="background:linear-gradient(100deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.26) 42%, rgba(242,234,253,0.34) 72%, rgba(232,246,246,0.38) 100%); box-shadow:inset 0 1px 0 rgba(255,255,255,0.9), inset 0 -1px 0 rgba(255,255,255,0.5); padding:clamp(96px, 12vw, 168px) clamp(20px, 5vw, 72px)">
+<div style="max-width:1320px; margin:0 auto">
+<div data-reveal="" style="max-width:780px">
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 28px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#65536E"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Vaše poverenje, naš prioritet</p>
+<h2 id="pristup-naslov" style="margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2.5rem, 1.3rem + 3.8vw, 4.75rem); line-height:1.05; letter-spacing:-0.01em; color:#362A3B; text-wrap:balance">Pažljivo. Individualno. <em style="color:#826E8B">Sa merom.</em></h2>
+</div>
+<ol style="list-style:none; margin:clamp(56px, 7vw, 104px) 0 0; padding:0; display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap:clamp(44px, 4vw, 64px)">
+<li data-reveal="" style="position:relative; padding-top:clamp(28px, 3vw, 40px); border-top:1px solid #E69CBA; display:flex; flex-direction:column; gap:12px">
+<span aria-hidden="true" style="position:absolute; top:-4px; left:0; width:7px; height:7px; border-radius:50%; background:conic-gradient(#EB6E9B, #C9A3EC, #9ED3D8, #F8D5C2, #EB6E9B)"></span>
+<span aria-hidden="true" style="font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(3.5rem, 2.6rem + 3vw, 5.75rem); line-height:0.9; color:#EB6E9B; align-self:flex-start; padding:0.08em 0 0.16em; margin:-0.08em 0 -0.16em; background-image:linear-gradient(120deg, #EB6E9B 12%, #B98AE0 56%, #7DB8C8 96%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent">01</span>
+<h3 style="margin:14px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.55rem, 1.3rem + 0.8vw, 2rem); line-height:1.15; color:#362A3B">Pregled i razgovor</h3>
+<p style="margin:0; max-width:22rem; font-size:16px; line-height:1.7; color:#65536E">Upoznajemo vaše želje i očekivanja i obavljamo detaljan pregled.</p>
+</li>
+<li data-reveal="" style="position:relative; padding-top:clamp(28px, 3vw, 40px); border-top:1px solid #E69CBA; display:flex; flex-direction:column; gap:12px">
+<span aria-hidden="true" style="position:absolute; top:-4px; left:0; width:7px; height:7px; border-radius:50%; background:conic-gradient(#EB6E9B, #C9A3EC, #9ED3D8, #F8D5C2, #EB6E9B)"></span>
+<span aria-hidden="true" style="font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(3.5rem, 2.6rem + 3vw, 5.75rem); line-height:0.9; color:#EB6E9B; align-self:flex-start; padding:0.08em 0 0.16em; margin:-0.08em 0 -0.16em; background-image:linear-gradient(120deg, #EB6E9B 12%, #B98AE0 56%, #7DB8C8 96%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent">02</span>
+<h3 style="margin:14px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.55rem, 1.3rem + 0.8vw, 2rem); line-height:1.15; color:#362A3B">Plan terapije</h3>
+<p style="margin:0; max-width:22rem; font-size:16px; line-height:1.7; color:#65536E">Objašnjavamo mogućnosti i zajedno biramo plan terapije ili tretmana koji odgovara vama.</p>
+</li>
+<li data-reveal="" style="position:relative; padding-top:clamp(28px, 3vw, 40px); border-top:1px solid #E69CBA; display:flex; flex-direction:column; gap:12px">
+<span aria-hidden="true" style="position:absolute; top:-4px; left:0; width:7px; height:7px; border-radius:50%; background:conic-gradient(#EB6E9B, #C9A3EC, #9ED3D8, #F8D5C2, #EB6E9B)"></span>
+<span aria-hidden="true" style="font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(3.5rem, 2.6rem + 3vw, 5.75rem); line-height:0.9; color:#EB6E9B; align-self:flex-start; padding:0.08em 0 0.16em; margin:-0.08em 0 -0.16em; background-image:linear-gradient(120deg, #EB6E9B 12%, #B98AE0 56%, #7DB8C8 96%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent">03</span>
+<h3 style="margin:14px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.55rem, 1.3rem + 0.8vw, 2rem); line-height:1.15; color:#362A3B">Pažljivo planirana nega</h3>
+<p style="margin:0; max-width:22rem; font-size:16px; line-height:1.7; color:#65536E">Svaki naredni korak prilagođava se vašim potrebama i stručnoj proceni.</p>
+</li>
+</ol>
+<p data-reveal="" style="margin:clamp(48px, 6vw, 80px) 0 0; max-width:40rem; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:clamp(1.3rem, 1.1rem + 0.6vw, 1.6rem); line-height:1.4; color:#65536E">Preporuka terapije ili tretmana uvek sledi tek nakon pregleda.</p>
+</div>
+</section>
+
+<section aria-labelledby="atmosfera-naslov" data-screen-label="07 Atmosfera" style="background:transparent; padding:clamp(96px, 12vw, 168px) clamp(20px, 5vw, 72px)">
+<div style="max-width:1320px; margin:0 auto">
+<div data-reveal="" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-end; gap:16px 48px; margin-bottom:clamp(32px, 4vw, 56px)">
+<div>
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 18px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#65536E"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Atmosfera</p>
+<h2 id="atmosfera-naslov" style="margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-style:italic; font-size:clamp(1.9rem, 1.3rem + 1.8vw, 3rem); line-height:1.15; color:#362A3B; text-wrap:balance">Pažnja u svakom detalju.</h2>
+</div>
+</div>
+<sc-if value="{{ galWide }}" hint-placeholder-val="{{ true }}">
+<div style="display:grid; grid-template-columns:5fr 3fr 4fr; gap:clamp(12px, 1.6vw, 24px)">
+<div data-reveal="img" style="grid-column:1; grid-row:1 / span 2; position:relative; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/galerija-klijentkinja.jpg" alt="Nasmejana klijentkinja posle tretmana gleda rezultat u ogledalu" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+<div data-reveal="img" style="grid-column:2 / span 2; grid-row:1; position:relative; aspect-ratio:16 / 10; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/galerija-enterijer.jpg" alt="Svetao, moderan prostor ordinacije sa zelenilom" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+<div data-reveal="img" style="grid-column:2; grid-row:2; position:relative; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/galerija-osmeh.jpg" alt="Nasmejana klijentkinja blistave, negovane kože" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+<div data-reveal="img" style="grid-column:3; grid-row:2; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/galerija-smeh.jpg" alt="Nasmejana klijentkinja prirodnog izgleda" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+</div>
+</sc-if>
+<sc-if value="{{ galNarrow }}" hint-placeholder-val="{{ false }}">
+<div style="display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:12px">
+<div style="grid-column:1 / span 2; position:relative; aspect-ratio:4 / 5; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/galerija-klijentkinja.jpg" alt="Nasmejana klijentkinja posle tretmana gleda rezultat u ogledalu" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+<div style="grid-column:1 / span 2; position:relative; aspect-ratio:4 / 3; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/galerija-enterijer.jpg" alt="Svetao, moderan prostor ordinacije sa zelenilom" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+<div style="position:relative; aspect-ratio:1 / 1; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/galerija-osmeh.jpg" alt="Nasmejana klijentkinja blistave, negovane kože" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+<div style="position:relative; aspect-ratio:1 / 1; overflow:hidden; background-color:rgba(255,255,255,0.32)">
+<img src="assets/img/galerija-smeh.jpg" alt="Nasmejana klijentkinja prirodnog izgleda" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+</div>
+</sc-if>
+</div>
+</section>
+
+<section data-dark="true" data-screen-label="08 Zakazivanje" aria-labelledby="cta-naslov" style="background-image:linear-gradient(115deg, rgba(255,255,255,0) 28%, rgba(255,255,255,0.07) 44%, rgba(255,255,255,0) 58%), radial-gradient(ellipse 55% 75% at 92% 8%, rgba(235,110,155,0.3) 0%, rgba(235,110,155,0) 70%), radial-gradient(ellipse 50% 70% at 60% 110%, rgba(190,232,232,0.18) 0%, rgba(190,232,232,0) 70%), linear-gradient(118deg, rgba(92,74,102,0.94) 0%, rgba(101,83,110,0.9) 50%, rgba(130,110,139,0.86) 100%); box-shadow:inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(255,255,255,0.12); color:#FFFFFF; padding:clamp(96px, 12vw, 176px) clamp(20px, 5vw, 72px)">
+<div style="max-width:1320px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; gap:clamp(48px, 7vw, 128px)">
+<div data-reveal="" style="flex:1.4 1 480px; min-width:0">
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 28px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#FFFFFF"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #F4B3C7, #E2D3F7 55%, #CDEEEE)"></span>Zakazivanje</p>
+<h2 id="cta-naslov" style="margin:0; max-width:13ch; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2.6rem, 1.3rem + 4.2vw, 5.25rem); line-height:1.04; letter-spacing:-0.01em; color:#FFFFFF; text-wrap:balance">Vreme je da posvetite <em style="color:#F5CDD0">pažnju sebi.</em></h2>
+<p style="margin:clamp(28px, 3vw, 40px) 0 0; max-width:30rem; font-size:clamp(1.02rem, 0.97rem + 0.2vw, 1.1rem); line-height:1.75; color:#FFFFFF; text-wrap:pretty">Zakažite stomatološki pregled ili konsultaciju za estetski tretman - dr Katarina će vam objasniti sve mogućnosti i sledeće korake.</p>
+<div style="margin-top:clamp(36px, 4vw, 52px); display:flex; flex-wrap:wrap; align-items:center; gap:14px 36px">
+<a href="#kontakt" style="display:inline-flex; align-items:center; justify-content:center; min-height:54px; padding:0 30px; background-color:#FAE6E8; color:#362A3B; font-size:14px; font-weight:500; letter-spacing:0.03em; text-decoration:none; border-radius:2px; transition:background-color .45s ease" style-hover="background-color:#EB6E9B; color:#362A3B">Zakažite termin</a>
+<a href="tel:+381642357859" style="display:inline-flex; align-items:center; gap:12px; min-height:44px; font-size:14px; font-weight:500; color:#FFFFFF; text-decoration:none; background-image:linear-gradient(#F4B3C7, #F4B3C7); background-repeat:no-repeat; background-size:100% 1px; background-position:0 calc(100% - 9px)" style-hover="color:#FFFFFF; background-image:linear-gradient(#FFFFFF, #FFFFFF)">Pozovite ordinaciju <span style="color:#FFFFFF; font-weight:400">064/235-78-59</span></a>
+</div>
+</div>
+<figure style="flex:1 1 280px; max-width:420px; margin:0 0 0 auto">
+<div data-reveal="img" style="position:relative; aspect-ratio:4 / 5; overflow:hidden; background-color:rgba(255,255,255,0.12)">
+<img src="assets/img/zakazivanje-dr-katarina.jpg" alt="dr Katarina Čorlija Karadžić za radnim stolom u ordinaciji" loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block">
+</div>
+</figure>
+</div>
+</section>
+
+<section id="kontakt" data-screen-label="09 Kontakt" aria-labelledby="kontakt-naslov" style="background:transparent; padding:clamp(96px, 12vw, 168px) clamp(20px, 5vw, 72px)">
+<div style="max-width:1320px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:flex-start; gap:clamp(56px, 7vw, 128px)">
+<div data-reveal="" style="flex:1 1 400px; min-width:0">
+<p style="display:flex; align-items:center; gap:14px; margin:0 0 28px; font-size:11.5px; font-weight:500; letter-spacing:0.22em; text-transform:uppercase; color:#65536E"><span aria-hidden="true" style="width:28px; height:1px; background:linear-gradient(90deg, #EB6E9B, #C9A3EC 55%, #9ED3D8)"></span>Kontakt</p>
+<h2 id="kontakt-naslov" style="margin:0; max-width:12ch; font-family:'Cormorant Garamond', Georgia, serif; font-weight:300; font-size:clamp(2.4rem, 1.3rem + 3.3vw, 4.25rem); line-height:1.06; letter-spacing:-0.01em; color:#362A3B; text-wrap:balance">Vaš prvi korak počinje <em style="color:#826E8B">razgovorom.</em></h2>
+<p style="margin:28px 0 0; max-width:30rem; font-size:clamp(1rem, 0.97rem + 0.15vw, 1.0625rem); line-height:1.8; color:#65536E; text-wrap:pretty">Pozovite ordinaciju, pišite nam ili pošaljite upit putem forme - zajedno ćemo dogovoriti termin pregleda ili konsultacije.</p>
+<dl style="margin:clamp(40px, 5vw, 56px) 0 0; border-bottom:1px solid #F4B3C7">
+<div style="display:grid; grid-template-columns:minmax(0, 7.5rem) minmax(0, 1fr); gap:6px 20px; align-items:baseline; padding:18px 0; border-top:1px solid #F4B3C7">
+<dt style="font-size:11px; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#65536E">Telefon</dt>
+<dd style="margin:0"><a href="tel:+381642357859" style="font-family:'Cormorant Garamond', Georgia, serif; font-size:clamp(1.45rem, 1.2rem + 0.8vw, 1.9rem); line-height:1.3; color:#362A3B; text-decoration:none; background-image:linear-gradient(#F4B3C7, #F4B3C7); background-repeat:no-repeat; background-size:100% 1px; background-position:0 100%" style-hover="background-image:linear-gradient(#362A3B, #362A3B)">064/235-78-59</a></dd>
+</div>
+<div style="display:grid; grid-template-columns:minmax(0, 7.5rem) minmax(0, 1fr); gap:6px 20px; align-items:baseline; padding:18px 0; border-top:1px solid #F4B3C7">
+<dt style="font-size:11px; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#65536E">Email</dt>
+<dd style="margin:0; overflow-wrap:anywhere"><a href="mailto:kacacorlija@gmail.com" style="font-family:'Cormorant Garamond', Georgia, serif; font-size:clamp(1.25rem, 1.1rem + 0.6vw, 1.6rem); line-height:1.3; color:#362A3B; text-decoration:none; background-image:linear-gradient(#F4B3C7, #F4B3C7); background-repeat:no-repeat; background-size:100% 1px; background-position:0 100%" style-hover="background-image:linear-gradient(#362A3B, #362A3B)">kacacorlija@gmail.com</a></dd>
+</div>
+<div style="display:grid; grid-template-columns:minmax(0, 7.5rem) minmax(0, 1fr); gap:6px 20px; align-items:baseline; padding:18px 0; border-top:1px solid #F4B3C7">
+<dt style="font-size:11px; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#65536E">Adresa</dt>
+<dd style="margin:0; display:flex; flex-direction:column; gap:2px">
+<address style="font-style:normal; font-family:'Cormorant Garamond', Georgia, serif; font-size:clamp(1.25rem, 1.1rem + 0.6vw, 1.6rem); line-height:1.3; color:#362A3B">Marka Oreškovića 34/2, Beograd</address>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Marka%20Ore%C5%A1kovi%C4%87a%2034%2F2%2C%20Beograd" target="_blank" rel="noopener" style="align-self:flex-start; display:inline-flex; align-items:center; min-height:44px; font-size:13.5px; font-weight:500; color:#65536E; text-decoration:underline; text-decoration-color:#EB6E9B; text-underline-offset:5px">Otvorite u Google mapama ↗</a>
+</dd>
+</div>
+<div style="display:grid; grid-template-columns:minmax(0, 7.5rem) minmax(0, 1fr); gap:6px 20px; align-items:baseline; padding:18px 0; border-top:1px solid #F4B3C7">
+<dt style="font-size:11px; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#65536E">Ordinacija</dt>
+<dd style="margin:0; font-size:15px; color:#362A3B">Viva Dental &amp; Aesthetic Medicine</dd>
+</div>
+</dl>
+</div>
+
+<div data-reveal="" style="flex:1.15 1 440px; min-width:0; box-sizing:border-box; background:linear-gradient(140deg, rgba(255,255,255,0.72) 0%, rgba(255,255,255,0.48) 46%, rgba(240,230,252,0.54) 76%, rgba(228,245,245,0.56) 100%); backdrop-filter:blur(26px) saturate(160%); border:1px solid rgba(255,255,255,0.85); box-shadow:0 40px 90px -46px rgba(101,83,110,0.5), inset 0 1px 0 rgba(255,255,255,0.95); padding:clamp(28px, 4vw, 56px)">
+<sc-if value="{{ formOpen }}" hint-placeholder-val="{{ true }}">
+<form novalidate="true" onSubmit="{{ onSubmit }}" aria-labelledby="forma-naslov" style="display:flex; flex-direction:column; gap:26px">
+<div>
+<h3 id="forma-naslov" style="margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.7rem, 1.4rem + 0.9vw, 2.2rem); line-height:1.15; color:#362A3B">Upit za termin</h3>
+<p style="margin:8px 0 0; font-size:13.5px; color:#65536E">Polja označena zvezdicom (*) su obavezna.</p>
+</div>
+<sc-if value="{{ hasErrors }}" hint-placeholder-val="{{ false }}"><p role="alert" style="margin:0; padding:12px 14px; border:1px solid rgba(142,63,42,0.35); background:rgba(142,63,42,0.06); font-size:14px; line-height:1.5; color:#8E3F2A">Molimo vas da proverite označena polja.</p></sc-if>
+<div style="display:flex; flex-direction:column; gap:6px">
+<label for="f-name" style="font-size:13px; font-weight:500; color:#362A3B">Ime i prezime <span aria-hidden="true">*</span></label>
+<input id="f-name" name="name" type="text" autocomplete="name" aria-required="true" aria-invalid="{{ inv.name }}" aria-describedby="e-name" value="{{ form.name }}" onChange="{{ onField }}" style="width:100%; box-sizing:border-box; min-height:48px; padding:10px 0; background:transparent; border:0; border-bottom:1px solid {{ line.name }}; border-radius:0; font-size:16px; color:#362A3B; transition:border-color .3s ease" style-focus="border-bottom-color:#362A3B">
+<sc-if value="{{ err.name }}" hint-placeholder-val="{{ false }}"><p id="e-name" style="margin:2px 0 0; font-size:13px; color:#8E3F2A">{{ err.name }}</p></sc-if>
+</div>
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap:26px 28px">
+<div style="display:flex; flex-direction:column; gap:6px; min-width:0">
+<label for="f-phone" style="font-size:13px; font-weight:500; color:#362A3B">Broj telefona <span aria-hidden="true">*</span></label>
+<input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" aria-required="true" aria-invalid="{{ inv.phone }}" aria-describedby="e-phone" value="{{ form.phone }}" onChange="{{ onField }}" style="width:100%; box-sizing:border-box; min-height:48px; padding:10px 0; background:transparent; border:0; border-bottom:1px solid {{ line.phone }}; border-radius:0; font-size:16px; color:#362A3B; transition:border-color .3s ease" style-focus="border-bottom-color:#362A3B">
+<sc-if value="{{ err.phone }}" hint-placeholder-val="{{ false }}"><p id="e-phone" style="margin:2px 0 0; font-size:13px; color:#8E3F2A">{{ err.phone }}</p></sc-if>
+</div>
+<div style="display:flex; flex-direction:column; gap:6px; min-width:0">
+<label for="f-email" style="font-size:13px; font-weight:500; color:#362A3B">Email adresa <span style="font-weight:400; color:#65536E">(opciono)</span></label>
+<input id="f-email" name="email" type="email" autocomplete="email" aria-invalid="{{ inv.email }}" aria-describedby="e-email" value="{{ form.email }}" onChange="{{ onField }}" style="width:100%; box-sizing:border-box; min-height:48px; padding:10px 0; background:transparent; border:0; border-bottom:1px solid {{ line.email }}; border-radius:0; font-size:16px; color:#362A3B; transition:border-color .3s ease" style-focus="border-bottom-color:#362A3B">
+<sc-if value="{{ err.email }}" hint-placeholder-val="{{ false }}"><p id="e-email" style="margin:2px 0 0; font-size:13px; color:#8E3F2A">{{ err.email }}</p></sc-if>
+</div>
+</div>
+<div style="display:flex; flex-direction:column; gap:6px">
+<label for="f-tretman" style="font-size:13px; font-weight:500; color:#362A3B">Zanima me</label>
+<select id="f-tretman" name="treatment" value="{{ form.treatment }}" onChange="{{ onField }}" style="width:100%; min-height:48px; padding:10px 28px 10px 0; background-color:transparent; background-image:linear-gradient(45deg, transparent 50%, #362A3B 50%), linear-gradient(135deg, #362A3B 50%, transparent 50%); background-position:calc(100% - 11px) 52%, calc(100% - 6px) 52%; background-size:5px 5px, 5px 5px; background-repeat:no-repeat; border:0; border-bottom:1px solid #826E8B; border-radius:0; appearance:none; font-size:16px; color:#362A3B; cursor:pointer" style-focus="border-bottom-color:#362A3B">
+<option value="">Izaberite uslugu</option>
+<optgroup label="Stomatologija">
+<option value="Stomatološki pregled">Stomatološki pregled</option>
+<option value="Popravke i lečenje zuba">Popravke i lečenje zuba</option>
+<option value="Izbeljivanje zuba">Izbeljivanje zuba</option>
+<option value="Fasete">Fasete</option>
+<option value="Bezmetalne krunice">Bezmetalne krunice</option>
+</optgroup>
+<optgroup label="Estetska medicina">
+<option value="Mezoterapija lica">Mezoterapija lica</option>
+<option value="Hijaluronski fileri">Hijaluronski fileri</option>
+<option value="Botulinum toksin tretmani">Botulinum toksin tretmani</option>
+<option value="Hemijski piling">Hemijski piling</option>
+<option value="Mezoniti">Mezoniti</option>
+<option value="Mezoterapija kose i regije podočnjaka">Mezoterapija kose i regije podočnjaka</option>
+</optgroup>
+<option value="Potreban mi je savet">Potreban mi je savet</option>
+</select>
+</div>
+<div style="display:flex; flex-direction:column; gap:6px">
+<label for="f-poruka" style="font-size:13px; font-weight:500; color:#362A3B">Poruka <span style="font-weight:400; color:#65536E">(opciono)</span></label>
+<textarea id="f-poruka" name="message" rows="4" aria-describedby="h-poruka" value="{{ form.message }}" onChange="{{ onField }}" style="width:100%; box-sizing:border-box; padding:10px 0; background:transparent; border:0; border-bottom:1px solid #826E8B; border-radius:0; font-size:16px; line-height:1.6; color:#362A3B; resize:vertical" style-focus="border-bottom-color:#362A3B"></textarea>
+<p id="h-poruka" style="margin:4px 0 0; font-size:12.5px; line-height:1.55; color:#65536E">Molimo vas da u poruci ne navodite zdravstvene podatke - o njima ćemo razgovarati u ordinaciji.</p>
+</div>
+<div style="display:flex; flex-direction:column; gap:6px">
+<div style="display:flex; gap:12px; align-items:flex-start">
+<input id="f-saglasnost" name="consent" type="checkbox" aria-required="true" aria-invalid="{{ inv.consent }}" aria-describedby="e-consent" checked="{{ form.consent }}" onChange="{{ onField }}" style="flex:none; width:20px; height:20px; margin:1px 0 0; accent-color:#826E8B; cursor:pointer">
+<label for="f-saglasnost" style="font-size:13.5px; line-height:1.6; color:#4B3D52; cursor:pointer">Slažem se da se moji podaci koriste isključivo radi odgovora na ovaj upit i dogovora o terminu. <span aria-hidden="true">*</span></label>
+</div>
+<sc-if value="{{ err.consent }}" hint-placeholder-val="{{ false }}"><p id="e-consent" style="margin:2px 0 0 32px; font-size:13px; color:#8E3F2A">{{ err.consent }}</p></sc-if>
+</div>
+<div style="display:flex; flex-wrap:wrap; align-items:center; gap:16px 24px; padding-top:4px">
+<button type="submit" style="display:inline-flex; align-items:center; justify-content:center; min-height:54px; padding:0 32px; background-color:#826E8B; color:#FFFFFF; border:0; border-radius:2px; font-size:14px; font-weight:500; letter-spacing:0.03em; cursor:pointer; transition:background-color .45s ease, color .45s ease" style-hover="background-color:#EB6E9B; color:#362A3B">Pošaljite upit</button>
+<p style="margin:0; flex:1 1 200px; font-size:12.5px; line-height:1.55; color:#65536E">Vaši podaci koriste se samo za odgovor na ovaj upit.</p>
+</div>
+</form>
+</sc-if>
+<sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+<div ref="{{ successRef }}" tabindex="-1" role="status" aria-live="polite" style="display:flex; flex-direction:column; gap:18px">
+<span aria-hidden="true" style="width:44px; height:1px; background:#826E8B"></span>
+<h3 style="margin:0; font-family:'Cormorant Garamond', Georgia, serif; font-weight:400; font-size:clamp(1.9rem, 1.5rem + 1vw, 2.5rem); line-height:1.15; color:#362A3B">{{ thanks }}</h3>
+<p style="margin:0; max-width:30rem; font-size:16px; line-height:1.75; color:#65536E">Vaš upit je pripremljen. Slanje putem sajta još nije povezano - pošaljite ga jednim klikom putem emaila ili pozovite ordinaciju.</p>
+<div style="display:flex; flex-wrap:wrap; align-items:center; gap:12px 28px; margin-top:6px">
+<a href="{{ mailto }}" style="display:inline-flex; align-items:center; justify-content:center; min-height:54px; padding:0 28px; background-color:#826E8B; color:#FFFFFF; font-size:14px; font-weight:500; letter-spacing:0.03em; text-decoration:none; border-radius:2px; transition:background-color .45s ease, color .45s ease" style-hover="background-color:#EB6E9B; color:#362A3B">Pošaljite upit emailom</a>
+<a href="tel:+381642357859" style="display:inline-flex; align-items:center; min-height:44px; font-size:14px; font-weight:500; color:#362A3B; text-decoration:none; background-image:linear-gradient(#EB6E9B, #EB6E9B); background-repeat:no-repeat; background-size:100% 1px; background-position:0 calc(100% - 9px)">Pozovite 064/235-78-59</a>
+</div>
+<button type="button" onClick="{{ reset }}" style="align-self:flex-start; min-height:44px; margin-top:4px; padding:0; background:none; border:0; cursor:pointer; font-size:13.5px; color:#65536E; text-decoration:underline; text-underline-offset:4px">Novi upit</button>
+</div>
+</sc-if>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer data-screen-label="10 Podnožje" style="position:relative; z-index:1; background:linear-gradient(100deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.26) 42%, rgba(242,234,253,0.34) 72%, rgba(232,246,246,0.38) 100%); box-shadow:inset 0 1px 0 rgba(255,255,255,0.9), inset 0 -1px 0 rgba(255,255,255,0.5); padding:clamp(64px, 8vw, 104px) clamp(20px, 5vw, 72px) {{ footPad }}">
+<div style="max-width:1320px; margin:0 auto">
+<div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:44px 64px; padding-bottom:clamp(40px, 5vw, 64px); border-bottom:1px solid #E69CBA">
+<div style="flex:1 1 300px; max-width:420px">
+<a href="#pocetna" aria-label="Dr Katarina - na početak" style="display:inline-flex; flex-direction:column; gap:6px; color:#362A3B; text-decoration:none">
+<span style="font-family:'Cormorant Garamond', Georgia, serif; font-size:34px; font-weight:500; line-height:1">Dr Katarina</span>
+<span style="font-size:10.5px; font-weight:500; letter-spacing:0.3em; text-transform:uppercase; color:#65536E">Dental &amp; Aesthetic · Beograd</span>
+</a>
+<p style="margin:26px 0 0; font-family:'Cormorant Garamond', Georgia, serif; font-style:italic; font-size:23px; line-height:1.35; color:#65536E">Stručnost koja neguje osmeh i prirodnu lepotu.</p>
+</div>
+<nav aria-label="Navigacija u podnožju" style="flex:0 1 180px">
+<p style="margin:0 0 14px; font-size:11px; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#65536E">Navigacija</p>
+<ul style="list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px; font-size:14.5px">
+<li><a href="#pocetna" style="display:inline-flex; align-items:center; min-height:36px; color:#362A3B; text-decoration:none" style-hover="color:#65536E; text-decoration:underline">Početna</a></li>
+<li><a href="#o-doktorki" style="display:inline-flex; align-items:center; min-height:36px; color:#362A3B; text-decoration:none" style-hover="color:#65536E; text-decoration:underline">O doktorki</a></li>
+<li><a href="#stomatologija" style="display:inline-flex; align-items:center; min-height:36px; color:#362A3B; text-decoration:none" style-hover="color:#65536E; text-decoration:underline">Stomatologija</a></li>
+<li><a href="#estetika" style="display:inline-flex; align-items:center; min-height:36px; color:#362A3B; text-decoration:none" style-hover="color:#65536E; text-decoration:underline">Estetika</a></li>
+<li><a href="#pristup" style="display:inline-flex; align-items:center; min-height:36px; color:#362A3B; text-decoration:none" style-hover="color:#65536E; text-decoration:underline">Pristup</a></li>
+<li><a href="#kontakt" style="display:inline-flex; align-items:center; min-height:36px; color:#362A3B; text-decoration:none" style-hover="color:#65536E; text-decoration:underline">Kontakt</a></li>
+</ul>
+</nav>
+<div style="flex:0 1 260px">
+<p style="margin:0 0 14px; font-size:11px; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#65536E">Kontakt</p>
+<div style="display:flex; flex-direction:column; gap:2px; font-size:14.5px; line-height:1.5">
+<a href="tel:+381642357859" style="display:inline-flex; align-items:center; min-height:36px; color:#362A3B; text-decoration:none" style-hover="text-decoration:underline">064/235-78-59</a>
+<a href="mailto:kacacorlija@gmail.com" style="display:inline-flex; align-items:center; min-height:36px; color:#362A3B; text-decoration:none; overflow-wrap:anywhere" style-hover="text-decoration:underline">kacacorlija@gmail.com</a>
+<span style="padding-top:6px; color:#4B3D52">Marka Oreškovića 34/2, Beograd</span>
+</div>
+</div>
+<div style="flex:0 1 200px">
+<p style="margin:0 0 14px; font-size:11px; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#65536E">Pratite nas</p>
+<div style="display:flex; flex-direction:column; align-items:flex-start; gap:2px"><a href="https://www.facebook.com/antiaging.katarina/" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; min-height:36px; font-size:14.5px; color:#362A3B; text-decoration:none" style-hover="text-decoration:underline">Facebook ↗</a><a href="https://www.instagram.com/dr_katarina_antiaging/" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; min-height:36px; font-size:14.5px; color:#362A3B; text-decoration:none" style-hover="text-decoration:underline">Instagram ↗</a></div>
+</div>
+</div>
+<div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px 32px; padding-top:26px; font-size:12.5px; line-height:1.6; color:#65536E">
+<p style="margin:0">© 2026 dr Katarina Čorlija Karadžić · Viva Dental &amp; Aesthetic Medicine</p>
+<p style="margin:0; max-width:34rem">Sadržaj sajta je informativnog karaktera i ne zamenjuje stručni medicinski pregled.</p>
+</div>
+</div>
+</footer>
+
+<sc-if value="{{ mctaOn }}" hint-placeholder-val="{{ false }}">
+<div aria-hidden="{{ mcta.hidden }}" style="position:fixed; left:0; right:0; bottom:0; z-index:45; box-sizing:border-box; padding:10px 14px calc(10px + env(safe-area-inset-bottom)); background:rgba(253,242,247,0.66); backdrop-filter:blur(22px) saturate(170%); border-top:1px solid rgba(255,255,255,0.85); box-shadow:0 -14px 40px -30px rgba(101,83,110,0.55); display:flex; gap:10px; transform:{{ mcta.tr }}; visibility:{{ mcta.vis }}; transition:transform .5s cubic-bezier(.2,.7,.2,1), visibility .5s">
+<a href="tel:+381642357859" style="flex:0 0 auto; display:flex; align-items:center; justify-content:center; min-height:48px; padding:0 18px; border:1px solid #362A3B; border-radius:2px; color:#362A3B; font-size:14px; font-weight:500; text-decoration:none">Pozovite</a>
+<a href="#kontakt" style="flex:1 1 auto; display:flex; align-items:center; justify-content:center; min-height:48px; background-color:#826E8B; border-radius:2px; color:#FFFFFF; font-size:14px; font-weight:500; letter-spacing:0.02em; text-decoration:none">Zakažite termin</a>
+</div>
+</sc-if>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;heroVariant&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Uokviren portret&quot;,&quot;Portret do ivice&quot;],&quot;default&quot;:&quot;Uokviren portret&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Izgled&quot;},&quot;mobileCta&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Izgled&quot;},&quot;auraMotion&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Pozadina&quot;},&quot;auraIntensity&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0.4,&quot;max&quot;:1.3,&quot;step&quot;:0.05,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Pozadina&quot;},&quot;cursorGlow&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Pozadina&quot;}}">
+class Component extends DCLogic {
+  state = {
+    w: typeof window !== 'undefined' ? window.innerWidth : 1440,
+    scrolled: false, past: false, active: 'pocetna', menu: false, contactInView: false,
+    open: {},
+    form: { name: '', phone: '', email: '', treatment: '', message: '', consent: false },
+    errors: {}, submitted: false, sent: false
+  };
+  menuBtn = React.createRef();
+  firstLink = React.createRef();
+  successRef = React.createRef();
+  auraA = React.createRef();
+  auraB = React.createRef();
+  glowRef = React.createRef();
+  rm = typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  fine = typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  componentDidMount() {
+    document.documentElement.lang = 'sr-Latn';
+    this._onScroll = () => {
+      if (this._raf) return;
+      this._raf = requestAnimationFrame(() => {
+        this._raf = 0;
+        const y = window.scrollY || 0;
+        this._flow(y);
+        const scrolled = y > 24, past = y > 560;
+        if (scrolled !== this.state.scrolled || past !== this.state.past) this.setState({ scrolled, past });
+      });
+    };
+    this._onResize = () => {
+      const w = window.innerWidth;
+      if (w === this.state.w) return;
+      const patch = { w };
+      if (w >= 1080 && this.state.menu) { patch.menu = false; document.body.style.overflow = ''; }
+      this.setState(patch);
+    };
+    this._onKey = (e) => { if (e.key === 'Escape' && this.state.menu) this.closeMenu(true); };
+    window.addEventListener('scroll', this._onScroll, { passive: true });
+    window.addEventListener('resize', this._onResize);
+    window.addEventListener('keydown', this._onKey);
+    this._gx = this._tx = window.innerWidth * 0.62;
+    this._gy = this._ty = window.innerHeight * 0.3;
+    this._onPointer = (e) => {
+      if (e.pointerType && e.pointerType !== 'mouse') return;
+      const el = this.glowRef.current;
+      if (!el) return;
+      this._tx = e.clientX; this._ty = e.clientY;
+      if (el.style.opacity !== '1') el.style.opacity = '1';
+      if (!this._gRaf) this._gRaf = requestAnimationFrame(this._tickGlow);
+    };
+    window.addEventListener('pointermove', this._onPointer, { passive: true });
+    this._onScroll();
+    if (!('IntersectionObserver' in window)) return;
+    this._secIO = new IntersectionObserver((entries) => {
+      entries.forEach((en) => { if (en.isIntersecting) this.setState({ active: en.target.id }); });
+    }, { rootMargin: '-42% 0px -52% 0px' });
+    ['pocetna', 'o-doktorki', 'stomatologija', 'estetika', 'pristup', 'kontakt'].forEach((id) => {
+      const el = document.getElementById(id); if (el) this._secIO.observe(el);
+    });
+    const k = document.getElementById('kontakt');
+    this._kIO = new IntersectionObserver(([en]) => this.setState({ contactInView: en.isIntersecting }), { rootMargin: '0px 0px -25% 0px' });
+    if (k) this._kIO.observe(k);
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    this._revIO = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (!en.isIntersecting) return;
+        const el = en.target;
+        el.style.opacity = '1'; el.style.transform = 'none'; el.style.clipPath = 'inset(0 0 0 0)';
+        this._revIO.unobserve(el);
+      });
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.06 });
+    document.querySelectorAll('[data-reveal]').forEach((el) => {
+      const img = el.getAttribute('data-reveal') === 'img';
+      el.style.opacity = '0';
+      if (img) {
+        el.style.clipPath = 'inset(0 0 12% 0)';
+        el.style.transition = 'opacity .9s ease, clip-path 1.3s cubic-bezier(.2,.7,.2,1)';
+      } else {
+        el.style.transform = 'translateY(18px)';
+        el.style.transition = 'opacity .8s ease, transform .9s cubic-bezier(.2,.7,.2,1)';
+      }
+      this._revIO.observe(el);
+    });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this._onScroll);
+    window.removeEventListener('resize', this._onResize);
+    window.removeEventListener('keydown', this._onKey);
+    window.removeEventListener('pointermove', this._onPointer);
+    if (this._gRaf) cancelAnimationFrame(this._gRaf);
+    [this._secIO, this._kIO, this._revIO].forEach((o) => o && o.disconnect());
+    document.body.style.overflow = '';
+  }
+
+  _moving = () => (this.props.auraMotion ?? true) && !this.rm;
+
+  _flow = (y) => {
+    const a = this.auraA.current, b = this.auraB.current;
+    if (!a || !b) return;
+    if (!this._moving()) { a.style.transform = ''; b.style.transform = ''; return; }
+    const t = y / 1000;
+    a.style.transform = 'translate3d(' + (Math.sin(t) * 4).toFixed(2) + 'vmax,' + (Math.cos(t * 0.7) * 6 - 6).toFixed(2) + 'vmax,0)';
+    b.style.transform = 'translate3d(' + (5 - Math.cos(t * 0.8) * 5).toFixed(2) + 'vmax,' + (Math.sin(t * 1.1) * 7).toFixed(2) + 'vmax,0)';
+  };
+
+  _tickGlow = () => {
+    this._gRaf = 0;
+    const el = this.glowRef.current;
+    if (!el) return;
+    this._gx += (this._tx - this._gx) * 0.07;
+    this._gy += (this._ty - this._gy) * 0.07;
+    el.style.transform = 'translate3d(' + this._gx.toFixed(1) + 'px,' + this._gy.toFixed(1) + 'px,0) translate(-50%,-50%)';
+    if (Math.abs(this._tx - this._gx) + Math.abs(this._ty - this._gy) > 0.5) this._gRaf = requestAnimationFrame(this._tickGlow);
+  };
+
+  auraEl(k, moving, lite, glow) {
+    const key = [k, moving, lite, glow].join('|');
+    if (this._auraKey === key) return this._auraEl;
+    const h = React.createElement;
+    const fill = { position: 'absolute', top: 0, right: 0, bottom: 0, left: 0 };
+    const wrap = moving ? { willChange: 'transform', transition: 'transform 1.6s cubic-bezier(.2,.7,.2,1)' } : {};
+    const blob = (b) => {
+      const a = Math.min(1, b.a * k);
+      return h('div', { key: b.id, style: {
+        position: 'absolute', left: b.l, top: b.t, right: b.r, bottom: b.b, width: b.s, height: b.s,
+        backgroundImage: 'radial-gradient(' + (b.sh || 'circle at 50% 50%') + ', rgba(' + b.c + ',' + a.toFixed(3) + ') 0%, rgba(' + b.c + ',' + (a * 0.5).toFixed(3) + ') 34%, rgba(' + b.c + ',0) 70%)',
+        animation: moving ? b.an : 'none', willChange: moving ? 'transform' : 'auto'
+      } });
+    };
+    const A = [
+      { id: 'a1', c: '244,179,199', a: 0.56, s: '70vmax', l: '-24vmax', t: '-30vmax', sh: 'ellipse 50% 40% at 50% 50%', an: 'aura-a 38s ease-in-out -7s infinite alternate' },
+      { id: 'a2', c: '190,232,232', a: 0.78, s: '62vmax', l: '4vw', b: '-34vmax', sh: 'ellipse 50% 38% at 50% 50%', an: 'aura-c 52s ease-in-out -13s infinite alternate' },
+      { id: 'a3', c: '250,211,192', a: 0.7, s: '46vmax', l: '-16vmax', t: '30vh', an: 'aura-b 34s ease-in-out -3s infinite alternate' }
+    ];
+    const B = [
+      { id: 'b1', c: '214,196,245', a: 0.66, s: '66vmax', r: '-26vmax', t: '-14vmax', sh: 'ellipse 44% 52% at 50% 50%', an: 'aura-b 44s ease-in-out -19s infinite alternate' },
+      { id: 'b2', c: '230,156,186', a: 0.32, s: '58vmax', r: '-16vmax', b: '-28vmax', sh: 'ellipse 46% 52% at 50% 50%', an: 'aura-a 46s ease-in-out -28s infinite alternate' }
+    ];
+    if (!lite) B.push(
+      { id: 'b3', c: '235,110,155', a: 0.18, s: '38vmax', r: '12vw', t: '42vh', an: 'aura-c 30s ease-in-out -11s infinite alternate' },
+      { id: 'b4', c: '130,110,139', a: 0.08, s: '52vmax', l: '32vw', t: '16vh', sh: 'ellipse 50% 34% at 50% 50%', an: 'aura-a 60s ease-in-out -33s infinite alternate' }
+    );
+    const pa = Math.min(1, 0.75 * k).toFixed(2);
+    const cone = (from, st) => 'repeating-conic-gradient(from ' + from + 'deg at 118% -32%, ' + st.map((c, i) => 'rgba(' + c[0] + ',' + pa + ') ' + c[1] + 'deg').join(', ') + ')';
+    const W = '255,255,255', PK = '246,160,200', LI = '196,160,246', AQ = '150,222,228', PE = '252,208,176';
+    const kids = [
+      h('div', { key: 'wa', ref: this.auraA, style: { ...fill, ...wrap } }, A.map(blob)),
+      h('div', { key: 'wb', ref: this.auraB, style: { ...fill, ...wrap } }, B.map(blob)),
+      h('div', { key: 'p1', style: { ...fill, backgroundImage: cone(186, [[W, 0], [PK, 13], [LI, 26], [AQ, 39], [PE, 52], [W, 64]]), mixBlendMode: 'soft-light' } })
+    ];
+    if (moving && !lite) {
+      kids.push(h('div', { key: 'p2', style: { ...fill, backgroundImage: cone(212, [[W, 0], [AQ, 14], [PK, 30], [PE, 44], [LI, 56], [W, 64]]), mixBlendMode: 'soft-light', animation: 'aura-fade 17s ease-in-out -5s infinite alternate' } }));
+      const s1 = Math.min(1, 0.42 * k).toFixed(2), s2 = Math.min(1, 0.34 * k).toFixed(2);
+      kids.push(h('div', { key: 'sh', style: { position: 'absolute', top: 0, bottom: 0, left: '-60%', width: '220%', backgroundImage: 'linear-gradient(104deg, rgba(255,255,255,0) 40%, rgba(255,255,255,' + s1 + ') 46.5%, rgba(238,220,252,' + s2 + ') 50%, rgba(206,242,242,' + s2 + ') 53.5%, rgba(255,255,255,0) 60%)', mixBlendMode: 'screen', animation: 'aura-sheen 28s ease-in-out -9s infinite alternate', willChange: 'transform' } }));
+    }
+    if (glow) kids.push(h('div', { key: 'gl', ref: this.glowRef, style: { position: 'absolute', left: 0, top: 0, width: '46vmax', height: '46vmax', transform: 'translate3d(62vw,30vh,0) translate(-50%,-50%)', backgroundImage: 'radial-gradient(circle at 50% 50%, rgba(255,255,255,.6) 0%, rgba(252,214,232,.38) 24%, rgba(222,206,250,.24) 42%, rgba(206,242,242,.12) 56%, rgba(255,255,255,0) 70%)', mixBlendMode: 'screen', opacity: 0, transition: 'opacity 1.4s ease', willChange: 'transform' } }));
+    const noise = this._noise || (this._noise = 'url("data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .4 0 0 0 0 .33 0 0 0 0 .44 0 0 0 .1 0"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>') + '")');
+    kids.push(h('div', { key: 'gr', style: { ...fill, backgroundImage: noise, backgroundSize: '220px 220px', opacity: 0.6 } }));
+    this._auraEl = h('div', { 'aria-hidden': 'true', style: { position: 'fixed', top: 0, right: 0, bottom: 0, left: 0, zIndex: 0, overflow: 'hidden', pointerEvents: 'none', isolation: 'isolate', backgroundColor: '#FAE6E8', backgroundImage: 'linear-gradient(158deg, #FDF3F6 0%, #F9E4EC 34%, #F2E6F7 62%, #E9F2F3 82%, #FCEEEA 100%)' } }, kids);
+    this._auraKey = key;
+    return this._auraEl;
+  }
+
+  toggleMenu = () => {
+    const menu = !this.state.menu;
+    this.setState({ menu });
+    document.body.style.overflow = menu ? 'hidden' : '';
+    if (menu) setTimeout(() => { const a = this.firstLink.current; if (a) a.focus({ preventScroll: true }); }, 90);
+  };
+
+  closeMenu = (refocus) => {
+    this.setState({ menu: false });
+    document.body.style.overflow = '';
+    if (refocus === true && this.menuBtn.current) this.menuBtn.current.focus();
+  };
+
+  toggleT = (i) => this.setState((s) => ({ open: { ...s.open, [i]: !s.open[i] } }));
+  pickT = (name) => this.setState((s) => ({ form: { ...s.form, treatment: name } }));
+
+  validate(f) {
+    const e = {};
+    if (f.name.trim().length < 3) e.name = 'Unesite ime i prezime.';
+    const digits = f.phone.replace(/\D/g, '');
+    if (!digits) e.phone = 'Unesite broj telefona.';
+    else if (digits.length < 8) e.phone = 'Proverite broj telefona - deluje prekratko.';
+    if (f.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(f.email.trim())) e.email = 'Proverite format email adrese.';
+    if (!f.consent) e.consent = 'Potrebna je vaša saglasnost kako bismo odgovorili na upit.';
+    return e;
+  }
+
+  onField = (ev) => {
+    const { name, value, type, checked } = ev.target;
+    this.setState((s) => {
+      const form = { ...s.form, [name]: type === 'checkbox' ? checked : value };
+      return { form, errors: s.submitted ? this.validate(form) : s.errors };
+    });
+  };
+
+  onSubmit = (ev) => {
+    ev.preventDefault();
+    const errors = this.validate(this.state.form);
+    const first = ['name', 'phone', 'email', 'consent'].find((k) => errors[k]);
+    this.setState({ errors, submitted: true, sent: !first });
+    if (first) {
+      const id = { name: 'f-name', phone: 'f-phone', email: 'f-email', consent: 'f-saglasnost' }[first];
+      setTimeout(() => { const el = document.getElementById(id); if (el) el.focus(); }, 30);
+    } else {
+      setTimeout(() => { if (this.successRef.current) this.successRef.current.focus(); }, 60);
+    }
+  };
+
+  reset = () => this.setState({
+    sent: false, submitted: false, errors: {},
+    form: { name: '', phone: '', email: '', treatment: '', message: '', consent: false }
+  });
+
+  renderVals() {
+    const { w, scrolled, past, active, menu, contactInView, open, form, errors, submitted, sent } = this.state;
+    const heroFramed = (this.props.heroVariant ?? 'Uokviren portret') !== 'Portret do ivice';
+    const mctaEnabled = this.props.mobileCta ?? true;
+    const mobileNav = w < 1080;
+    const keys = { pocetna: 'pocetna', 'o-doktorki': 'doktorka', stomatologija: 'stomatologija', estetika: 'estetika', pristup: 'pristup', kontakt: 'kontakt' };
+    const nav = {}, cur = {};
+    Object.keys(keys).forEach((id) => {
+      const on = active === id;
+      nav[keys[id]] = on ? '100% 1px' : '0% 1px';
+      cur[keys[id]] = on ? 'location' : 'false';
+    });
+    const T = ['Mezoterapija lica', 'Hijaluronski fileri', 'Botulinum toksin tretmani', 'Hemijski piling', 'Mezoniti', 'Mezoterapija kose i regije podočnjaka'];
+    const tr = {};
+    T.forEach((name, idx) => {
+      const i = idx + 1, o = !!open[i];
+      tr['t' + i] = { exp: o ? 'true' : 'false', rows: o ? '1fr' : '0fr', vis: o ? 'visible' : 'hidden', rot: o ? 'rotate(90deg)' : 'none' };
+      tr['tg' + i] = () => this.toggleT(i);
+      tr['pk' + i] = () => this.pickT(name);
+    });
+    const D = ['Stomatološki pregled', 'Popravke i lečenje zuba', 'Popravke i lečenje zuba', 'Izbeljivanje zuba', 'Fasete', 'Bezmetalne krunice'];
+    D.forEach((name, idx) => {
+      const i = idx + 1, k = 'd' + i, o = !!open[k];
+      tr[k] = { exp: o ? 'true' : 'false', rows: o ? '1fr' : '0fr', vis: o ? 'visible' : 'hidden', rot: o ? 'rotate(90deg)' : 'none' };
+      tr['dg' + i] = () => this.toggleT(k);
+      tr['dk' + i] = () => this.pickT(name);
+    });
+    const err = {}, inv = {}, line = {};
+    ['name', 'phone', 'email', 'consent'].forEach((k) => {
+      err[k] = errors[k] || '';
+      inv[k] = errors[k] ? 'true' : 'false';
+      line[k] = errors[k] ? '#8E3F2A' : '#826E8B';
+    });
+    const firstName = form.name.trim().split(/\s+/)[0] || '';
+    const subject = 'Upit za termin - ' + (form.treatment || 'opšti upit');
+    const body = 'Ime i prezime: ' + form.name + '\nTelefon: ' + form.phone + '\nEmail: ' + (form.email || '-') + '\nUsluga: ' + (form.treatment || '-') + '\n\n' + (form.message || '');
+    const mctaShow = past && !contactInView && !menu;
+    const auraK = Math.max(0.3, Math.min(1.4, Number(this.props.auraIntensity ?? 1) || 1));
+    const moving = this._moving();
+    const lite = w < 760;
+    const aura = this.auraEl(auraK, moving, lite, (this.props.cursorGlow ?? true) && moving && !lite && this.fine);
+    return {
+      heroFramed, heroBleed: !heroFramed,
+      aura,
+      bleedTop: w >= 960 ? 'clamp(84px, 11vh, 100px)' : '0px',
+      deskNav: !mobileNav, mobileNav,
+      nav, cur,
+      hdr: {
+        bg: scrolled && !menu ? 'rgba(253,242,247,0.62)' : 'rgba(253,242,247,0)',
+        line: scrolled && !menu ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0)',
+        blur: scrolled && !menu ? 'blur(22px) saturate(170%)' : 'none',
+        shadow: scrolled && !menu ? '0 14px 40px -30px rgba(101,83,110,0.55)' : '0 0 0 0 rgba(101,83,110,0)',
+        pad: scrolled ? '12px 0' : (w < 640 ? '18px 0' : '26px 0')
+      },
+      hb: {
+        exp: menu ? 'true' : 'false', label: menu ? 'Zatvorite meni' : 'Otvorite meni',
+        t1: menu ? 'translateY(4px) rotate(45deg)' : 'none', t2: menu ? 'translateY(-4px) rotate(-45deg)' : 'none'
+      },
+      mm: { hidden: menu ? 'false' : 'true', op: menu ? '1' : '0', vis: menu ? 'visible' : 'hidden', tr: menu ? 'none' : 'translateY(-10px)' },
+      toggleMenu: this.toggleMenu, closeMenu: this.closeMenu, menuBtn: this.menuBtn, firstLink: this.firstLink,
+      mctaOn: mctaEnabled && mobileNav,
+      mcta: { hidden: mctaShow ? 'false' : 'true', tr: mctaShow ? 'none' : 'translateY(110%)', vis: mctaShow ? 'visible' : 'hidden' },
+      footPad: mctaEnabled && mobileNav ? '120px' : '40px',
+      stagger: w >= 960 ? 'translateY(clamp(48px, 7vw, 120px))' : 'none',
+      galWide: w >= 860, galNarrow: w < 860,
+      ...tr,
+      form, err, inv, line,
+      hasErrors: submitted && Object.keys(errors).length > 0,
+      formOpen: !sent, sent,
+      onField: this.onField, onSubmit: this.onSubmit, reset: this.reset, successRef: this.successRef,
+      thanks: firstName ? 'Hvala vam, ' + firstName + '.' : 'Hvala vam.',
+      mailto: 'mailto:kacacorlija@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body)
+    };
+  }
+}
+</script>
+</body>
+</html>
